@@ -1,4 +1,4 @@
-# Environment Variables - ŞİFRELER BURADA!
+# Environment Variables 
 .env
 *.env
 !.env.example
