@@ -198,7 +198,7 @@ async function loadOSMData() {
 
 async function loadLowEmissionData() {
     try {
-        const response = await fetch('../data/processed/low_emission_simulation.geojson');
+        const response = await fetch('data/processed/low_emission_simulation.geojson');
         const data = await response.json();
 
         schoolCount = 0;
@@ -426,5 +426,5 @@ function updateStatistics() {
     }
 }
 
-loadOSMData();
+// loadOSMData(); // OSM verisi mevcut değil
 loadLowEmissionData();
