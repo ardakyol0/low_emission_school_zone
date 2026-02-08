@@ -282,10 +282,6 @@ const isExitTime = currentHour >= 15 && currentHour < 16; // Çıkış: 15:00-16
 }
 ```
 
-## 📄 Lisans
-
-MIT
-
 ---
 
 **Geliştirici Notu:** Bu proje, sürdürülebilir şehir planlaması ve düşük karbonlu ulaşım sistemleri üzerine bir simülasyon çalışmasıdır. Gerçek dünya uygulamaları için yerel yönetimler ve trafik uzmanlarıyla işbirliği önerilir.
